@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:columnCount="4"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/result"
+        android:layout_columnSpan="4"
+        android:layout_gravity="fill"
+        android:hint="Число"
+        android:enabled="false"/>
+
+    <Button
+        android:id="@+id/cleanAll"
+        android:background="@color/colorAccent"
+        android:text="C"
+        android:onClick="onCalcClick"/>
+
+    <Button
+        android:id="@+id/clean"
+        android:background="@color/colorAccent"
+        android:text="CE"
+        android:onClick="onCalcClick"/>
+
+    <Button
+        android:id="@+id/percent"
+        android:background="@color/colorAccent"
+        android:text="%"
+        android:onClick="onCalcClick"/>
+
+    <Button
+        android:id="@+id/divide"
+        android:background="@color/colorAccent"
+        android:text="/"
+        android:onClick="onCalcClick"/>
+
+    <Button
+        android:id="@+id/seven"
+        android:background="@color/colorAccent"
+        android:text="7"
+        android:onClick="onCalcClick"/>
+
+    <Button
+        android:id="@+id/eight"
+        android:background="@color/colorAccent"
+        android:text="8"
+        android:onClick="onCalcClick"/>
+
+    <Button
+        android:id="@+id/nine"
+        android:background="@color/colorAccent"
+        android:text="9"
+        android:onClick="onCalcClick"/>
+
+    <Button
+        android:id="@+id/multiply_"
+        android:background="@color/colorAccent"
+        android:text="X"
+        android:onClick="onCalcClick"/>
+
+    <Button
+        android:id="@+id/four"
+        android:background="@color/colorAccent"
+        android:text="4"
+        android:onClick="onCalcClick"/>
+
+    <Button
+        android:id="@+id/five"
+        android:background="@color/colorAccent"
+        android:text="5"
+        android:onClick="onCalcClick"/>
+
+    <Button
+        android:id="@+id/six"
+        android:background="@color/colorAccent"
+        android:text="6"
+        android:onClick="onCalcClick"/>
+
+    <Button
+        android:id="@+id/minus"
+        android:background="@color/colorAccent"
+        android:text="-"
+        android:onClick="onCalcClick"/>
+
+    <Button
+        android:id="@+id/one"
+        android:background="@color/colorAccent"
+        android:text="1"
+        android:onClick="onCalcClick"/>
+
+    <Button
+        android:id="@+id/two"
+        android:background="@color/colorAccent"
+        android:text="2"
+        android:onClick="onCalcClick"/>
+
+    <Button
+        android:id="@+id/three"
+        android:background="@color/colorAccent"
+        android:text="3"
+        android:onClick="onCalcClick"/>
+
+    <Button
+        android:id="@+id/plus"
+        android:background="@color/colorAccent"
+        android:text="+"
+        android:onClick="onCalcClick"/>
+
+    <Button
+        android:id="@+id/plusminus"
+        android:background="@color/colorAccent"
+        android:text="+/-"
+        android:onClick="onCalcClick"/>
+
+    <Button
+        android:id="@+id/zero"
+        android:background="@color/colorAccent"
+        android:text="0"
+        android:onClick="onCalcClick"/>
+
+    <Button
+        android:id="@+id/dot"
+        android:background="@color/colorAccent"
+        android:text="."
+        android:onClick="onCalcClick"/>
+
+    <Button
+        android:id="@+id/equals"
+        android:background="@color/colorPrimary"
+        android:text="="
+        android:onClick="onCalcClick"/>
+
+    <Button
+        android:id="@+id/history"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_columnSpan="4"
+        android:layout_gravity="fill"
+        android:text="@string/history"
+        android:onClick="onCalcClick"/>
+
+</GridLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SmartCalc</string>
+    <string name="last_action">Ваше последнее выражение:</string>
+    <string name="history">История</string>
+</resources>
