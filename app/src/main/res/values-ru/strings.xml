@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">SmartCalc</string>
-    <string name="last_action">Your last action:</string>
-    <string name="history">History</string>
+    <string name="last_action">Ваше последнее выражение:</string>
+    <string name="history">История</string>
     <string name="eq">=</string>
     <string name="dot">.</string>
     <string name="zero">0</string>
@@ -22,5 +22,5 @@
     <string name="percent">%</string>
     <string name="ce">CE</string>
     <string name="c">C</string>
-    <string name="number">Number</string>
+    <string name="number">Число</string>
 </resources>
